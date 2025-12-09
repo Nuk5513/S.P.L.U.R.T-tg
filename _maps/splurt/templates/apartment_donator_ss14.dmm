@@ -117,6 +117,23 @@
 	},
 /turf/open/misc/beach/sand,
 /area/misc/hilbertshotel)
+"as" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
+	},
+/area/misc/hilbertshotel)
 "aw" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 10
@@ -606,7 +623,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
 	},
 /area/misc/hilbertshotel)
 "cU" = (
@@ -961,6 +979,48 @@
 	light_color = "#9d9ddd"
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/misc/hilbertshotel)
+"gc" = (
+/obj/effect/turf_decal/weather/sand{
+	dir = 10
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 55
+	},
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 55
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
+	},
+/area/misc/hilbertshotel)
+"gd" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/obj/structure/fans/tiny/invisible{
+	density = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
+	},
 /area/misc/hilbertshotel)
 "gf" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
@@ -1321,6 +1381,32 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/misc/hilbertshotel)
+"iK" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/obj/structure/decorative{
+	name = "void";
+	anchored = 1;
+	icon = 'icons/effects/blood.dmi';
+	icon_state = "vomitnebula_1"
+	},
+/obj/structure/fans/tiny/invisible{
+	density = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
+	},
+/area/misc/hilbertshotel)
 "iQ" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/engineering_construction{
@@ -1629,7 +1715,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "kt" = (
@@ -1645,6 +1732,23 @@
 	bulb_power = 0.5
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/misc/hilbertshotel)
+"kC" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
+	},
 /area/misc/hilbertshotel)
 "kH" = (
 /obj/structure/broken_flooring/plating/always_floorplane/directional/west{
@@ -1848,6 +1952,35 @@
 	pixel_y = -2
 	},
 /turf/open/misc/beach/sand,
+/area/misc/hilbertshotel)
+"lU" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 205
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 155
+	},
+/obj/structure/decorative{
+	name = "void";
+	anchored = 1;
+	icon = 'icons/effects/blood.dmi';
+	icon_state = "vomitnebula_1"
+	},
+/obj/structure/marker_beacon/cerulean{
+	color = "#FFFFFF";
+	alpha = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
+	},
 /area/misc/hilbertshotel)
 "lV" = (
 /obj/effect/turf_decal/siding/wood{
@@ -2218,7 +2351,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "nq" = (
@@ -2391,6 +2525,26 @@
 	color = "#FFFFFF"
 	},
 /turf/open/misc/beach/sand,
+/area/misc/hilbertshotel)
+"oq" = (
+/obj/effect/turf_decal/weather/sand,
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 105
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 55
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
+	},
 /area/misc/hilbertshotel)
 "or" = (
 /obj/structure/flora/grass/jungle/b{
@@ -2623,7 +2777,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "pq" = (
@@ -2753,7 +2908,27 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
+	},
+/area/misc/hilbertshotel)
+"pP" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 205
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 155
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "pS" = (
@@ -2826,6 +3001,30 @@
 /turf/closed/indestructible/hotelwall{
 	color = "#000000";
 	name = "darkness"
+	},
+/area/misc/hilbertshotel)
+"qg" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/obj/structure/wargame_hologram/dust{
+	desc = null;
+	name = "sparkles";
+	pixel_x = -15;
+	pixel_y = 9;
+	color = "ff9fe5"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/river
 	},
 /area/misc/hilbertshotel)
 "qh" = (
@@ -3133,6 +3332,26 @@
 	},
 /turf/open/floor/iron/dark/corner{
 	dir = 8
+	},
+/area/misc/hilbertshotel)
+"tu" = (
+/obj/effect/turf_decal/weather/sand{
+	dir = 4
+	},
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "tv" = (
@@ -3660,6 +3879,25 @@
 	color = "ff9fe5"
 	},
 /turf/open/floor/engine,
+/area/misc/hilbertshotel)
+"wH" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 105
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 55
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
+	},
 /area/misc/hilbertshotel)
 "wJ" = (
 /obj/structure/table/bronze,
@@ -5220,6 +5458,23 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/misc/hilbertshotel)
+"Ew" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
+	},
+/area/misc/hilbertshotel)
 "Ex" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 1
@@ -6201,6 +6456,33 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/misc/hilbertshotel)
+"KL" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/obj/structure/decorative{
+	name = "void";
+	anchored = 1;
+	icon = 'icons/effects/blood.dmi';
+	icon_state = "vomitnebula_1"
+	},
+/obj/structure/marker_beacon/cerulean{
+	color = "#FFFFFF";
+	alpha = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
+	},
+/area/misc/hilbertshotel)
 "KR" = (
 /turf/closed/wall/mineral/titanium/shuttle_wall/window/evac{
 	icon_state = "1,12";
@@ -6378,7 +6660,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
 	},
 /area/misc/hilbertshotel)
 "LM" = (
@@ -6444,6 +6727,35 @@
 	color = "#634f33"
 	},
 /turf/open/floor/carpet/royalblack,
+/area/misc/hilbertshotel)
+"LP" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 205
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 155
+	},
+/obj/structure/decorative{
+	name = "void";
+	anchored = 1;
+	icon = 'icons/effects/blood.dmi';
+	icon_state = "vomitnebula_1"
+	},
+/obj/structure/marker_beacon/cerulean{
+	color = "#FFFFFF";
+	alpha = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
+	},
 /area/misc/hilbertshotel)
 "LV" = (
 /turf/open/water/beach{
@@ -6764,6 +7076,32 @@
 	pixel_y = 3
 	},
 /turf/open/floor/iron/dark/textured_large,
+/area/misc/hilbertshotel)
+"NG" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF";
+	alpha = 205
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF";
+	alpha = 155
+	},
+/obj/structure/wargame_hologram/dust{
+	desc = null;
+	name = "sparkles";
+	pixel_x = -15;
+	pixel_y = 9;
+	color = "ff9fe5"
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/lunar
+	},
 /area/misc/hilbertshotel)
 "NH" = (
 /obj/structure/flora/bush/reed/style_3{
@@ -7736,7 +8074,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
 	},
 /area/misc/hilbertshotel)
 "SW" = (
@@ -7795,6 +8134,26 @@
 /turf/closed/indestructible/hotelwall{
 	color = "#000000";
 	name = "darkness"
+	},
+/area/misc/hilbertshotel)
+"TV" = (
+/obj/effect/overlay/water/top{
+	icon_state = "OLD_top";
+	color = "#FFFFFF"
+	},
+/obj/effect/overlay/water{
+	icon_state = "OLD_bottom";
+	color = "#FFFFFF"
+	},
+/obj/structure/fans/tiny/invisible{
+	density = 1
+	},
+/turf/open/water/beach{
+	name = "void";
+	desc = "...There's fish inside?";
+	icon = 'icons/turf/floors.dmi';
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
 	},
 /area/misc/hilbertshotel)
 "TZ" = (
@@ -8365,7 +8724,8 @@
 	name = "void";
 	desc = "...There's fish inside?";
 	icon = 'icons/turf/floors.dmi';
-	icon_state = "black"
+	icon_state = "black";
+	fishing_datum = /datum/fish_source/portal/syndicate
 	},
 /area/misc/hilbertshotel)
 "Yy" = (
@@ -8743,7 +9103,7 @@ jQ
 "}
 (5,1,1) = {"
 by
-RW
+TV
 cg
 cg
 cg
@@ -8785,10 +9145,10 @@ jQ
 (6,1,1) = {"
 by
 Xf
+kC
 cg
-cg
-cg
-od
+as
+LP
 tS
 ap
 NH
@@ -8826,12 +9186,12 @@ jQ
 (7,1,1) = {"
 by
 RW
-cg
-UU
-cg
+kC
+KL
+as
 CM
 ul
-jV
+gc
 JE
 cp
 UB
@@ -8869,8 +9229,8 @@ by
 RW
 cg
 cg
-cg
-Yn
+Ew
+NG
 Zh
 NZ
 jl
@@ -8908,10 +9268,10 @@ by
 (9,1,1) = {"
 by
 RW
-II
+qg
 ev
 UU
-CM
+pP
 Sw
 ox
 yF
@@ -8948,7 +9308,7 @@ by
 "}
 (10,1,1) = {"
 by
-RW
+gd
 pI
 rm
 aM
@@ -9032,7 +9392,7 @@ dX
 by
 RW
 cg
-od
+lU
 po
 oB
 jl
@@ -9071,7 +9431,7 @@ AV
 "}
 (13,1,1) = {"
 by
-Xf
+iK
 CM
 tS
 GJ
@@ -9114,7 +9474,7 @@ zY
 by
 RW
 CM
-tS
+oq
 Vd
 WW
 jB
@@ -9155,7 +9515,7 @@ FK
 LV
 RW
 cg
-ev
+tu
 zF
 YC
 Vw
@@ -9317,11 +9677,11 @@ by
 "}
 (19,1,1) = {"
 by
-RW
+gd
 cg
 cg
 od
-ul
+wH
 jV
 DI
 yF
@@ -9361,7 +9721,7 @@ by
 RW
 cg
 II
-CM
+pP
 ul
 cR
 jl
@@ -9399,10 +9759,10 @@ by
 "}
 (21,1,1) = {"
 by
-RW
-UU
+gd
+KL
 cg
-CM
+pP
 jO
 ki
 RN
@@ -9442,7 +9802,7 @@ jQ
 by
 RW
 cg
-cg
+kC
 Yn
 tS
 us
@@ -9481,10 +9841,10 @@ jQ
 "}
 (23,1,1) = {"
 by
-RW
+gd
 cg
 cg
-CM
+pP
 tS
 Fu
 WW
