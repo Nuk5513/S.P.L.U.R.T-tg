@@ -351,11 +351,6 @@
 		print_sound_mode = INSPECTOR_PRINT_SOUND_MODE_NORMAL
 		energy_per_print = INSPECTOR_ENERGY_USAGE_NORMAL
 
-/bananium/screwdriver_act(mob/living/user, obj/item/tool)
-	. = ..()
-	check_settings_legality()
-	return TRUE
-
 /obj/item/inspector/clown/bananium/attackby(obj/item/I, mob/user, list/modifiers, list/attack_modifiers)
 	. = ..()
 	if(cell_cover_open)
