@@ -351,7 +351,7 @@
 		print_sound_mode = INSPECTOR_PRINT_SOUND_MODE_NORMAL
 		energy_per_print = INSPECTOR_ENERGY_USAGE_NORMAL
 
-/obj/item/inspector/clown/bananium/screwdriver_act(mob/living/user, obj/item/tool)
+/bananium/screwdriver_act(mob/living/user, obj/item/tool)
 	. = ..()
 	check_settings_legality()
 	return TRUE
